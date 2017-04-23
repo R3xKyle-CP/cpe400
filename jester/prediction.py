@@ -20,7 +20,7 @@ def main():
 #    print("Collaborative Adjusted Weighted Sum - User 1, Joke 1: " + str(collaborativeAdjustedWeightedSum(0,0)))
 #    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(0,0)))
 #    print("Item Based Adjusted Weighted Sum - User 1, Joke 1: " + str(itemBasedAdjustedWeightedSum(0, 0)))
-    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, FILESIZE - 1)))
+    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
 
 # given the user number and joke number, find all joke ratings at joke number except at row of user
 def collaborativeAverage(userNumber, itemNumber, fileName = FILENAME, fileSize = FILESIZE):
@@ -145,16 +145,24 @@ def itemBasedPearsonCorrelation(item1Number, item2Number, fileName = FILENAME, f
     return sumNumerator / math.sqrt(sumDenominatorItem1 * sumDenominatorItem2)
 
 def getNearestNeighbors(userNumber, n):
-    nearestNeighbors = [[-2, -1]] * n
+    nearestNeighbors = [[-2, -1] for i in range(n)]
     numberFilled = 0
     for i in range(0, FILESIZE):
         if i != userNumber:
             info = linecache.getline(FILENAME, i + 1).split(",")
             similarity = collaborativePearsonCorrelation(userNumber, i)
             if similarity > nearestNeighbors[0][0]:
+                #print("Before assigning")
+                #print(nearestNeighbors)
                 nearestNeighbors[0][0] = similarity
+                #print("After assigning")
+                #print(nearestNeighbors)
                 nearestNeighbors[0][1] = i
-                nearestNeighbors.sort(key=lambda x: x[0])
+                #print("Before sorted: ")
+                #print(nearestNeighbors)
+                nearestNeighbors = sorted(nearestNeighbors, key=lambda x: x[0])
+                #print("After sorted: ")
+                #print(nearestNeighbors)
 
     file = open(FILENAMENN, 'w')
     for j in range(0, n):
