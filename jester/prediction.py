@@ -191,7 +191,7 @@ def getNearestNeighborsItemBased(itemNumber, n):
         for j in range(0, n):
             lineOut += "," + info[nearestNeighbors[j][1]]
         lineOut += "," + info[itemNumber]
-        file.write(lineOut)
+        file.write(lineOut + "\n")
 
 def nearestNeighborsCollaborativeAverage(userNumber, itemNumber, n):
     getNearestNeighborsCollaborative(userNumber, n)
