@@ -3,12 +3,14 @@ import math
 import os
 
 FILESIZE = 24983
+NUMJOKES = 100
 FILENAME = "jester-data-1.csv"
-FILENAMENN = "nearestNeighbors.csv"
+FILENAMENNC = "nearestNeighborsC.csv"
+FILENAMENNIB = "nearestNeighborsIB.csv"
 
 def main():
-    print("Collaborative Average - User 24983, Joke 100: " + str(collaborativeAverage(499, 49)))
-#    print("Item Based Average - User 24983, Joke 100: " + str(itemBasedAverage(FILESIZE - 1, 99)))
+#    print("Collaborative Average - User 24983, Joke 100: " + str(collaborativeAverage(499, 49)))
+    print("Item Based Average - User 24983, Joke 100: " + str(itemBasedAverage(499, 49)))
 #    print("Collaborative Pearson Correlation - User 24983, User 24982: " + str(collaborativePearsonCorrelation(FILESIZE - 1, FILESIZE - 2)))
 #    print("Item Based Pearson Correlation - Joke 99, Joke 100: " + str(itemBasedPearsonCorrelation(98, 99)))
 #    print("--------------------------------------------Test Cases ^^^-------------------------------------------------------------------")
@@ -20,7 +22,8 @@ def main():
 #    print("Collaborative Adjusted Weighted Sum - User 1, Joke 1: " + str(collaborativeAdjustedWeightedSum(0,0)))
 #    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(0,0)))
 #    print("Item Based Adjusted Weighted Sum - User 1, Joke 1: " + str(itemBasedAdjustedWeightedSum(0, 0)))
-    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
+#    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
+    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedAverage(499, 49, 99)))
 
 # given the user number and joke number, find all joke ratings at joke number except at row of user
 def collaborativeAverage(userNumber, itemNumber, fileName = FILENAME, fileSize = FILESIZE):
@@ -144,7 +147,7 @@ def itemBasedPearsonCorrelation(item1Number, item2Number, fileName = FILENAME, f
 
     return sumNumerator / math.sqrt(sumDenominatorItem1 * sumDenominatorItem2)
 
-def getNearestNeighbors(userNumber, n):
+def getNearestNeighborsCollaborative(userNumber, n):
     nearestNeighbors = [[-2, -1] for i in range(n)]
     numberFilled = 0
     for i in range(0, FILESIZE):
@@ -164,29 +167,73 @@ def getNearestNeighbors(userNumber, n):
                 #print("After sorted: ")
                 #print(nearestNeighbors)
 
-    file = open(FILENAMENN, 'w')
+    file = open(FILENAMENNC, 'w')
     for j in range(0, n):
         file.write(linecache.getline(FILENAME, nearestNeighbors[j][1] + 1))
     file.write(linecache.getline(FILENAME, userNumber + 1))
 
+def getNearestNeighborsItemBased(itemNumber, n):
+    nearestNeighbors = [[-2, -1] for i in range(n)]
+    numberFilled = 0
+    for i in range(0, NUMJOKES):
+        if i != itemNumber:
+            similarity = itemBasedPearsonCorrelation(itemNumber, i);
+            if similarity > nearestNeighbors[0][0]:
+                nearestNeighbors[0][0] = similarity
+                nearestNeighbors[0][1] = i
+                nearestNeighbors = sorted(nearestNeighbors, key=lambda x: x[0])
+
+    file = open(FILENAMENNIB, 'w')
+    for i in range(0, FILESIZE):
+        line = linecache.getline(FILENAME, i+1)
+        info = line.split(',')
+        lineOut = info[0] # concat at beginning of line out once you get count of actual jokes rated.
+        for j in range(0, n):
+            lineOut += "," + info[nearestNeighbors[j][1]]
+        lineOut += "," + info[itemNumber]
+        file.write(lineOut)
 
 def nearestNeighborsCollaborativeAverage(userNumber, itemNumber, n):
-    getNearestNeighbors(userNumber, n)
-    average = collaborativeAverage(n, itemNumber, FILENAMENN, n + 1)
-    #try:
-    #    os.remove(FILENAMENN)
-    #except:
-    #    pass
-
+    getNearestNeighborsCollaborative(userNumber, n)
+    average = collaborativeAverage(n, itemNumber, FILENAMENNC, n + 1)
+    deleteFile(FILENAMENNC)
     return average
 
-def openFile():
+def nearestNeighborsCollaborativeWeightedSum(userNumber, itemNumber, n):
+    getNearestNeighborsCollaborative(userNumber, n)
+    weightedSum = collaborativeWeightedSum(n, itemNumber, FILENAMENNC, n + 1)
+    deleteFile(FILENAMENNC)
+    return weightedSum
+
+def nearestNeighborsCollaborativeAdjustedWeightedSum(userNumber, itemNumber, n):
+    getNearestNeighborsCollaborative(userNumber, n)
+    adjustedWeightedSum = collaborativeAdjustedWeightedSum(n, itemNumber, FILENAMENNC, n + 1)
+    deleteFile(FILENAMENNC)
+    return adjustedWeightedSum
+
+def nearestNeighborsItemBasedAverage(userNumber, itemNumber, n):
+    getNearestNeighborsItemBased(itemNumber, n)
+    average = itemBasedAverage(userNumber, n, FILENAMENNIB)
+    deleteFile(FILENAMENNIB)
+    return average
+
+def nearestNeighborsItemBasedWeightedSum(userNumber, itemNumber, n):
+    getNearestNeighborsItemBased(itemNumber, n)
+    weightedSum = itemBasedWeightedSum(userNumber, n, FILENAMENNIB)
+    deleteFile(FILENAMENNIB)
+    return weightedSum
+
+def nearestNeighborsItemBasedAdjustedWeightedSum(userNumber, itemNumber, n):
+    getNearestNeighborsItemBased(itemNumber, n)
+    adjustedWeightedSum = itemBasedAdjustedWeightedSum(userNumber, n, FILENAMENNIB)
+    deleteFile(FILENAMENNIB)
+    return adjustedWeightedSum
+
+def deleteFile(fileName):
     try:
-        file = open(filename, 'r')
+        os.remove(fileName)
     except:
-        print("File failed to open.")
-        exit(0)
-    return file
+        pass
 
 
 
