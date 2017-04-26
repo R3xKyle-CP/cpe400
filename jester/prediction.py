@@ -2,6 +2,21 @@ import linecache
 import math
 import os
 
+# numpy and revise it with numpy
+
+# multiple sets of 100 test cases
+
+# cosine similarity
+
+# 100 test cases for sum squared errors
+# 100 test cases for Average
+# small standard deviation -> good prediction
+
+# smaller mean -> the better -> (mean = better prediction)
+
+
+# transpose matrix to get the same functionality
+# transpose matrix ->
 FILESIZE = 24983
 NUMJOKES = 100
 FILENAME = "jester-data-1.csv"
@@ -9,8 +24,18 @@ FILENAMENNC = "nearestNeighborsC.csv"
 FILENAMENNIB = "nearestNeighborsIB.csv"
 
 def main():
-#    print("Collaborative Average - User 24983, Joke 100: " + str(collaborativeAverage(499, 49)))
-    print("Item Based Average - User 24983, Joke 100: " + str(itemBasedAverage(499, 49)))
+#    print("Collaborative Average - User 500, Joke 50: " + str(collaborativeAverage(499, 49)))
+#    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
+#    print("Collaborative Weighted Sum - User 500, Joke 50: " + str(collaborativeWeightedSum(499, 49)))
+#    print("Nearest Neighbors Collaborative Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeWeightedSum(499, 49, 24982)))
+#    print("Collaborative Adjusted Weighted Sum - User 500, Joke 50: " + str(collaborativeAdjustedWeightedSum(499, 49)))
+#    print("Nearest Neighbors Collaborative Adjusted Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAdjustedWeightedSum(499, 49, 24982)))
+#    print("Item Based Average - User 500, Joke 500: " + str(itemBasedAverage(499, 49)))
+#    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedAverage(499, 49, 99)))
+#    print("Item Based Weighted Sum - User 500, Joke 50: " + str(itemBasedWeightedSum(499, 49)))
+#    print("Nearest Neighbors Item Based Weighted Sum: " + str(nearestNeighborsItemBasedWeightedSum(499, 49, 99)))
+#    print("Item Based Adjusted Weighted Sum - User 500, Joke 50: " + str(itemBasedAdjustedWeightedSum(499, 49)))
+#    print("Nearest Neighbors Item Based Adjusted Weighted Sum: " + str(nearestNeighborsItemBasedAdjustedWeightedSum(499, 49, 99)))
 #    print("Collaborative Pearson Correlation - User 24983, User 24982: " + str(collaborativePearsonCorrelation(FILESIZE - 1, FILESIZE - 2)))
 #    print("Item Based Pearson Correlation - Joke 99, Joke 100: " + str(itemBasedPearsonCorrelation(98, 99)))
 #    print("--------------------------------------------Test Cases ^^^-------------------------------------------------------------------")
@@ -20,10 +45,10 @@ def main():
 #    print("Item Based Pearson Correlation - Joke 1, Joke 2: " + str(itemBasedPearsonCorrelation(0, 1)))
 #    print("Collaborative Weighted Sum - User 1, Joke 1: " + str(collaborativeWeightedSum(0,0)))
 #    print("Collaborative Adjusted Weighted Sum - User 1, Joke 1: " + str(collaborativeAdjustedWeightedSum(0,0)))
-#    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(0,0)))
+#    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(499,49)))
 #    print("Item Based Adjusted Weighted Sum - User 1, Joke 1: " + str(itemBasedAdjustedWeightedSum(0, 0)))
 #    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
-    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedAverage(499, 49, 99)))
+#    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedWeightedSum(499, 49, 99)))
 
 # given the user number and joke number, find all joke ratings at joke number except at row of user
 def collaborativeAverage(userNumber, itemNumber, fileName = FILENAME, fileSize = FILESIZE):
@@ -48,7 +73,7 @@ def collaborativeWeightedSum(userNumber, itemNumber, fileName = FILENAME, fileSi
             info = linecache.getline(fileName, i + 1).split(",")
             utilityUserI = float(info[itemNumber + 1])
             if utilityUserI != 99:
-                similarity = collaborativePearsonCorrelation(userNumber, i)
+                similarity = collaborativePearsonCorrelation(userNumber, i, fileName)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * utilityUserI)
 
@@ -62,11 +87,11 @@ def collaborativeAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME
             info = linecache.getline(fileName, i + 1).split(",")
             utilityUserI = float(info[itemNumber + 1])
             if utilityUserI != 99:
-                similarity = collaborativePearsonCorrelation(userNumber, i)
+                similarity = collaborativePearsonCorrelation(userNumber, i, fileName)
                 normalizationSum += abs(similarity)
-                compSum += (similarity * (utilityUserI - itemBasedAverage(i, -1)))
+                compSum += (similarity * (utilityUserI - itemBasedAverage(i, -1, fileName)))
 
-    return (itemBasedAverage(userNumber, -1) + (compSum/normalizationSum))
+    return (itemBasedAverage(userNumber, -1, fileName) + (compSum/normalizationSum))
 
 def collaborativePearsonCorrelation(user1Number, user2Number, fileName = FILENAME):
     sumNumerator = 0
@@ -74,8 +99,8 @@ def collaborativePearsonCorrelation(user1Number, user2Number, fileName = FILENAM
     sumDenominatorUser2 = 0
     user1 = linecache.getline(fileName, user1Number + 1).split(",") # linecache indices start with 1
     user2 = linecache.getline(fileName, user2Number + 1).split(",")
-    avgUser1 = itemBasedAverage(user1Number, -1) # -1 to ensure that it does not skip any joke
-    avgUser2 = itemBasedAverage(user2Number, -1)
+    avgUser1 = itemBasedAverage(user1Number, -1, fileName) # -1 to ensure that it does not skip any joke
+    avgUser2 = itemBasedAverage(user2Number, -1, fileName)
     for i in range(1, len(user1)):
         utilityUser1 = float(user1[i])
         utilityUser2 = float(user2[i])
@@ -99,7 +124,7 @@ def itemBasedAverage(userNumber, itemNumber, fileName = FILENAME):
                 total += rating
     return total/int(info[0])
 
-def itemBasedWeightedSum(userNumber, itemNumber, fileName = FILENAME):
+def itemBasedWeightedSum(userNumber, itemNumber, fileName = FILENAME, fileSize = FILESIZE):
     normalizationSum = 0
     compSum = 0
     info = linecache.getline(fileName, userNumber + 1).split(",")
@@ -107,13 +132,13 @@ def itemBasedWeightedSum(userNumber, itemNumber, fileName = FILENAME):
         if i != itemNumber + 1:
             utilityItemI = float(info[i])
             if utilityItemI != 99:
-                similarity = itemBasedPearsonCorrelation(itemNumber, i - 1)
+                similarity = itemBasedPearsonCorrelation(itemNumber, i - 1, fileName, fileSize)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * utilityItemI)
 
     return compSum/normalizationSum
 
-def itemBasedAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME):
+def itemBasedAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME, fileSize = FILESIZE):
     normalizationSum = 0
     compSum = 0
     info = linecache.getline(fileName, userNumber + 1).split(",")
@@ -121,9 +146,9 @@ def itemBasedAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME):
         if i != itemNumber + 1:
             utilityItemI = float(info[i])
             if utilityItemI != 99:
-                similarity = itemBasedPearsonCorrelation(itemNumber, i - 1)
+                similarity = itemBasedPearsonCorrelation(itemNumber, i - 1, fileName, fileSize)
                 normalizationSum += abs(similarity)
-                compSum += (similarity * (utilityItemI - collaborativeAverage(-1, i)))
+                compSum += (similarity * (utilityItemI - collaborativeAverage(-1, i, fileName, fileSize)))
 
     return (collaborativeAverage(-1, itemNumber) + (compSum/normalizationSum))
 
@@ -131,8 +156,8 @@ def itemBasedPearsonCorrelation(item1Number, item2Number, fileName = FILENAME, f
     sumNumerator = 0
     sumDenominatorItem1 = 0
     sumDenominatorItem2 = 0
-    avgItem1 = collaborativeAverage(-1, item1Number) # -1 to ensure that it does not skip any user by
-    avgItem2 = collaborativeAverage(-1, item2Number)
+    avgItem1 = collaborativeAverage(-1, item1Number, fileName, fileSize) # -1 to ensure that it does not skip any user by
+    avgItem2 = collaborativeAverage(-1, item2Number, fileName, fileSize)
     for i in range(0, fileSize):
         line = linecache.getline(fileName, i + 1).split(",");
         utilityItem1 = float(line[item1Number + 1])
@@ -149,7 +174,6 @@ def itemBasedPearsonCorrelation(item1Number, item2Number, fileName = FILENAME, f
 
 def getNearestNeighborsCollaborative(userNumber, n):
     nearestNeighbors = [[-2, -1] for i in range(n)]
-    numberFilled = 0
     for i in range(0, FILESIZE):
         if i != userNumber:
             info = linecache.getline(FILENAME, i + 1).split(",")
@@ -174,7 +198,6 @@ def getNearestNeighborsCollaborative(userNumber, n):
 
 def getNearestNeighborsItemBased(itemNumber, n):
     nearestNeighbors = [[-2, -1] for i in range(n)]
-    numberFilled = 0
     for i in range(0, NUMJOKES):
         if i != itemNumber:
             similarity = itemBasedPearsonCorrelation(itemNumber, i);
@@ -185,13 +208,16 @@ def getNearestNeighborsItemBased(itemNumber, n):
 
     file = open(FILENAMENNIB, 'w')
     for i in range(0, FILESIZE):
-        line = linecache.getline(FILENAME, i+1)
+        line = linecache.getline(FILENAME, i+1).rstrip()
         info = line.split(',')
-        lineOut = info[0] # concat at beginning of line out once you get count of actual jokes rated.
+
+        count = NUMJOKES - (info[1:]).count(str(99))
+        lineOut = ""
         for j in range(0, n):
-            lineOut += "," + info[nearestNeighbors[j][1]]
-        lineOut += "," + info[itemNumber]
-        file.write(lineOut + "\n")
+            lineOut += info[nearestNeighbors[j][1]] + ","
+        lineOut += info[itemNumber]
+        lineOut = str(count) + "," + lineOut + "\n"
+        file.write(lineOut)
 
 def nearestNeighborsCollaborativeAverage(userNumber, itemNumber, n):
     getNearestNeighborsCollaborative(userNumber, n)
@@ -225,7 +251,7 @@ def nearestNeighborsItemBasedWeightedSum(userNumber, itemNumber, n):
 
 def nearestNeighborsItemBasedAdjustedWeightedSum(userNumber, itemNumber, n):
     getNearestNeighborsItemBased(itemNumber, n)
-    adjustedWeightedSum = itemBasedAdjustedWeightedSum(userNumber, n, FILENAMENNIB)
+    adjustedWeightedSum = itemBasedAdjustedWeightedSum(userNumber, n, FILENAMENNIB, FILESIZE)
     deleteFile(FILENAMENNIB)
     return adjustedWeightedSum
 
