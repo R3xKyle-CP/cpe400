@@ -1,0 +1,838 @@
+Test failed for either CN = 5 or IBN = 3
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 3
+Trying to increase IBN by 1; now it is 4; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 4
+Both failed
+Test failed for either CN = 5 or IBN = 4
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 4
+Trying to increase IBN by 1; now it is 5; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 5
+Both failed
+Test failed for either CN = 5 or IBN = 5
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 5
+Trying to increase IBN by 1; now it is 6; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 6
+Both failed
+Test failed for either CN = 5 or IBN = 6
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 6
+Trying to increase IBN by 1; now it is 7; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 7
+Both failed
+Test failed for either CN = 5 or IBN = 7
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 7
+Trying to increase IBN by 1; now it is 8; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 8
+Both failed
+Test failed for either CN = 5 or IBN = 8
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 8
+Trying to increase IBN by 1; now it is 9; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 9
+Both failed
+Test failed for either CN = 5 or IBN = 9
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 9
+Trying to increase IBN by 1; now it is 10; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 10
+Both failed
+Test failed for either CN = 5 or IBN = 10
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 10
+Trying to increase IBN by 1; now it is 11; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 11
+Both failed
+Test failed for either CN = 5 or IBN = 11
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 11
+Trying to increase IBN by 1; now it is 12; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 12
+Both failed
+Test failed for either CN = 5 or IBN = 12
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 12
+Trying to increase IBN by 1; now it is 13; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 13
+Both failed
+Test failed for either CN = 5 or IBN = 13
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 13
+Trying to increase IBN by 1; now it is 14; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 14
+Both failed
+Test failed for either CN = 5 or IBN = 14
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 14
+Trying to increase IBN by 1; now it is 15; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 15
+Both failed
+Test failed for either CN = 5 or IBN = 15
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 15
+Trying to increase IBN by 1; now it is 16; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 16
+Both failed
+Test failed for either CN = 5 or IBN = 16
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 16
+Trying to increase IBN by 1; now it is 17; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 17
+Both failed
+Test failed for either CN = 5 or IBN = 17
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 17
+Trying to increase IBN by 1; now it is 18; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 18
+Both failed
+Test failed for either CN = 5 or IBN = 18
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 18
+Trying to increase IBN by 1; now it is 19; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 19
+Both failed
+Test failed for either CN = 5 or IBN = 19
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 19
+Trying to increase IBN by 1; now it is 20; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 20
+Both failed
+Test failed for either CN = 5 or IBN = 20
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 20
+Trying to increase IBN by 1; now it is 21; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 21
+Both failed
+Test failed for either CN = 5 or IBN = 21
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 21
+Trying to increase IBN by 1; now it is 22; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 22
+Both failed
+Test failed for either CN = 5 or IBN = 22
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 22
+Trying to increase IBN by 1; now it is 23; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 23
+Both failed
+Test failed for either CN = 5 or IBN = 23
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 23
+Trying to increase IBN by 1; now it is 24; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 24
+Both failed
+Test failed for either CN = 5 or IBN = 24
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 24
+Trying to increase IBN by 1; now it is 25; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 25
+Both failed
+Test failed for either CN = 5 or IBN = 25
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 25
+Trying to increase IBN by 1; now it is 26; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 26
+Both failed
+Test failed for either CN = 5 or IBN = 26
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 26
+Trying to increase IBN by 1; now it is 27; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 27
+Both failed
+Test failed for either CN = 5 or IBN = 27
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 27
+Trying to increase IBN by 1; now it is 28; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 28
+Both failed
+Test failed for either CN = 5 or IBN = 28
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 28
+Trying to increase IBN by 1; now it is 29; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 29
+Both failed
+Test failed for either CN = 5 or IBN = 29
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 29
+Trying to increase IBN by 1; now it is 30; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 30
+Both failed
+Test failed for either CN = 5 or IBN = 30
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 30
+Trying to increase IBN by 1; now it is 31; Subtracting 1 from CN; now it is 5
+Test failed for either CN = 5 or IBN = 31
+Trying to increase CN by 1; now it is 6
+Test failed for either CN = 6 or IBN = 31
+Trying to increase CN by 1; now it is 7
+Test failed for either CN = 7 or IBN = 31
+Trying to increase CN by 1; now it is 8
+Test failed for either CN = 8 or IBN = 31
+Trying to increase CN by 1; now it is 9
+Test failed for either CN = 9 or IBN = 31
+Trying to increase CN by 1; now it is 10
+Test failed for either CN = 10 or IBN = 31
+Trying to increase CN by 1; now it is 11
+Test failed for either CN = 11 or IBN = 31
+Trying to increase CN by 1; now it is 12
+Test failed for either CN = 12 or IBN = 31
+Trying to increase CN by 1; now it is 13
+Test failed for either CN = 13 or IBN = 31
+Trying to increase CN by 1; now it is 14
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 14: 1.72375413541
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 14: 6.06540037585
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 14: 2.4628033571224646
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 14: 0.0864037160605
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 3.70092518719
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 22.2693956602
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 4.719046054044021
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.185510034446
+Test failed for either CN = 14 or IBN = 31
+Trying to increase CN by 1; now it is 15
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 3.26309766665
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 16.3751787172
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 4.04662559637271
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 0.163563792814
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 1.68794516106
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 9.40691352602
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 3.067069207895671
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.0846087800029
+Test failed for either CN = 15 or IBN = 31
+Trying to increase CN by 1; now it is 16
+Test failed for either CN = 16 or IBN = 31
+Trying to increase CN by 1; now it is 17
+Test failed for either CN = 17 or IBN = 31
+Trying to increase CN by 1; now it is 18
+Test failed for either CN = 18 or IBN = 31
+Trying to increase CN by 1; now it is 19
+Test failed for either CN = 19 or IBN = 31
+Trying to increase CN by 1; now it is 20
+Test failed for either CN = 20 or IBN = 31
+Trying to increase CN by 1; now it is 21
+Test failed for either CN = 21 or IBN = 31
+Trying to increase CN by 1; now it is 22
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 22: 2.76903547151
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 22: 13.2743816158
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 22: 3.64340247787095
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 22: 0.138798770502
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 1.22726858361
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 5.08288647573
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 2.2545257762397553
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.0615172222363
+Test failed for either CN = 22 or IBN = 31
+Trying to increase CN by 1; now it is 23
+Test failed for either CN = 23 or IBN = 31
+Trying to increase CN by 1; now it is 24
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 24: 3.87579643415
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 24: 19.9797312701
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 24: 4.469869267674669
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 24: 0.194275510484
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 10.1427871688
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 60.4529364087
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 7.775148642226718
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.508410384402
+Test failed for either CN = 24 or IBN = 31
+Trying to increase CN by 1; now it is 25
+Test failed for either CN = 25 or IBN = 31
+Trying to increase CN by 1; now it is 26
+Test failed for either CN = 26 or IBN = 31
+Trying to increase CN by 1; now it is 27
+Test failed for either CN = 27 or IBN = 31
+Trying to increase CN by 1; now it is 28
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 28: 1.36573828678
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 28: 4.3495630903
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 28: 2.0855606177482797
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 28: 0.0684580594876
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 2.0666320375
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 10.8220561738
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 3.289689373446528
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.103590578321
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 28: 5.84831354036
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 28: 26.0678926288
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 28: 5.105672593180186
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 28: 0.293148548389
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 31: 1.60161038535
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 31: 7.61597085066
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 31: 2.7597048484682785
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 31: 0.0802812223232
+Test failed for either CN = 28 or IBN = 31
+Trying to increase CN by 1; now it is 29
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 29: 34.5613942708
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 29: 118.95203936
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 29: 10.906513620753966
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 29: 1.73240071533
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 1.1465381791
+Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 5.96844029747
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 31: 2.443039151850174
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 31: 0.0574705854187
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 29: 7.86579677673
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 29: 32.8552271349
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 29: 5.73194793546273
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 29: 0.394275527656
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 31: 4.60284724879
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 31: 22.572519816
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 31: 4.751054600399636
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 31: 0.230719160341
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 29: 1.52316682444
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 29: 5.43353261555
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 29: 2.3309939115210545
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 29: 0.0763492142574
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 31: 14.9752697037
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 31: 72.383158105
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 31: 8.507829224012973
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 31: 0.750640085399
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 30: 1.77701732987
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 30: 8.72437033616
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 30: 2.9537045106371287
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 30: 0.0890735503695
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 3.71475610086
+Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 19.427052906
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 4.407613062193314
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 0.186203313327
+Test failed for either CN = 30 or IBN = 32
+Trying to increase CN by 1; now it is 31
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 31: 9.08523351499
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 31: 42.854946176
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 31: 6.546368930636414
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 31: 0.45540017619
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 2.49741394373
+Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 15.3500781342
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 3.9179175762435827
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 0.125183656327
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 31: 14.4545773574
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 31: 87.3302818902
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 31: 9.345067249098955
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 31: 0.724540218414
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 32: 1.91758222043
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 32: 6.31019076027
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 32: 2.5120093073611507
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 32: 0.0961194095451
+Test failed for either CN = 31 or IBN = 32
+Trying to increase CN by 1; now it is 32
+Test failed for either CN = 32 or IBN = 32
+Trying to increase CN by 1; now it is 33
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 33: 1.82913147009
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 33: 9.28038061287
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 33: 3.046371712852356
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 33: 0.0916857879746
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 1.79641409202
+Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 9.37460793639
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 32: 3.061798154090473
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 32: 0.0900458191487
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 33: 151.507399689
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 33: 694.664353424
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 33: 26.35648598397863
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 33: 7.59435587414
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 32: 1.69862151523
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 32: 7.68313976822
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 32: 2.771847717357135
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 32: 0.0851439356007
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 33: 4.1341353931
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 33: 17.1852887917
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 33: 4.145514297608769
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 33: 0.207224831734
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 32: 3.56595295455
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 32: 23.1119110898
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 32: 4.80748490270845
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 32: 0.178744509
+Test failed for either CN = 34 or IBN = 33
+Trying to increase CN by 1; now it is 35
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 35: 27.4886351657
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 35: 144.850178062
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 35: 12.035371953601913
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 35: 1.37787644941
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 16.6045108843
+Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 101.180488395
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 10.058851246283586
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 0.832306309988
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 35: 1.46662856928
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 35: 5.25172373573
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 35: 2.2916639665815666
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 35: 0.0735152165053
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 33: 2.42906481469
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 33: 13.4091104168
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 33: 3.661845220215557
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 33: 0.121757634822
+Test failed for either CN = 35 or IBN = 33
+Trying to increase CN by 1; now it is 36
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 36: 2.09917743242
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 36: 8.67438284326
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 36: 2.9452305246380317
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 36: 0.105221926437
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 1.50261063335
+Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 4.70730095461
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 2.1696315250779694
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 0.0753188287395
+Test failed for either CN = 36 or IBN = 33
+Trying to increase CN by 1; now it is 37
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 37: 6.05393739682
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 37: 28.4806250124
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 37: 5.336724183651055
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 37: 0.303455508613
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 2.34739718521
+Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 10.0440482717
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 33: 3.1692346507815894
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 33: 0.117664019309
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 37: 1.37261572688
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 37: 4.27520963976
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 37: 2.067658008415241
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 37: 0.0688027933273
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 33: 3.6942551815
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 33: 13.0314135839
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 33: 3.6099049272633947
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 33: 0.185175698321
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 37: 2.37755796709
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 37: 10.1586181357
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 37: 3.1872587180410625
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 37: 0.11917583795
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 33: 9.12883787015
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 33: 52.6080974503
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 33: 7.2531439700512825
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 33: 0.457585858153
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 38: 2.56889218447
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 38: 15.7840396083
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 38: 3.972913239466534
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 38: 0.128766525537
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 34: 4.2332625201
+Mean Squared Error for Nearest Neighbors Item Based Average N = 34: 18.0180736863
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 34: 4.244770157061361
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 34: 0.21219361003
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 38: 2.01856222699
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 38: 8.16276334519
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 38: 2.8570550126290115
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 38: 0.101181064009
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 34: 2.52834304912
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 34: 16.8310610394
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 34: 4.102567615455163
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 34: 0.126733987425
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 38: 0.692355954521
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 38: 1.76861100251
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 38: 1.3298913498905445
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 38: 0.0347045591239
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 34: 2.8586161296
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 34: 15.8363016009
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 34: 3.9794850924277045
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 34: 0.143289029053
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 39: 6.21754904261
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 39: 30.5660521641
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 39: 5.528657356366311
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 39: 0.311656593614
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 35: 4.23475416846
+Mean Squared Error for Nearest Neighbors Item Based Average N = 35: 22.9911482887
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 35: 4.79490857980497
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 35: 0.212268379372
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 39: 4.90146686679
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 39: 20.1230168229
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 39: 4.485868569507344
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 39: 0.245687562245
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 35: 1.03480637995
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 35: 6.01868611417
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 35: 2.4533010647237283
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 35: 0.0518699939826
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 39: 1.55996654401
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 39: 5.08566667935
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 39: 2.255142274747541
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 39: 0.07819381173
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 35: 1.6855842603
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 35: 9.42956868322
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 35: 3.0707602777188545
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 35: 0.0844904391129
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 40: 6.77093645031
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 40: 29.6745533266
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 40: 5.447435481637267
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 40: 0.339395310793
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 36: 1.02215524495
+Mean Squared Error for Nearest Neighbors Item Based Average N = 36: 3.49344597453
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 36: 1.8690762356120767
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 36: 0.051235851877
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 40: 0.907367696419
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 40: 2.72656063236
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 40: 1.651230036173184
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 40: 0.045482090046
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 36: 3.12722688821
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 36: 11.9234621977
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 36: 3.4530366632452103
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 36: 0.156753227479
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 40: 103.595371614
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 40: 369.124115381
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 40: 19.212603035019676
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 40: 5.19275045686
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 36: 1.36113077256
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 36: 6.50668599386
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 36: 2.5508206510566054
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 36: 0.068227106394
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 41: 29.2165751433
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 41: 127.890397514
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 41: 11.30886367032698
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 41: 1.46448998212
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 37: 1.7341482247
+Mean Squared Error for Nearest Neighbors Item Based Average N = 37: 8.9629955865
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 37: 2.9938262452086692
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 37: 0.0869247230425
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 41: 1.7899497315
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 41: 9.78109488496
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 41: 3.1274742021253594
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 41: 0.0897217910526
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 37: 26.602202407
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 37: 129.884129354
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 37: 11.396671854262713
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 37: 1.33344372967
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 41: 1.16648494799
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 41: 5.95321434257
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 41: 2.439920970558114
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 41: 0.0584704234582
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 37: 1.88425348853
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 37: 7.51047585089
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 37: 2.74052474006231
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 37: 0.0944487964178
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 42: 1.418508561
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 42: 5.86439431959
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 42: 2.4216511556358644
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 42: 0.0711031860151
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 38: 1.87714635633
+Mean Squared Error for Nearest Neighbors Item Based Average N = 38: 7.98182617567
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 38: 2.825212589464923
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 38: 0.0940925491895
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 42: 1.58947007857
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 42: 8.72029216441
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 42: 2.9530140813084476
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 42: 0.0796726856426
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 38: 2.86306005927
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 38: 16.5361067721
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 38: 4.066461209960884
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 38: 0.143511782419
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 42: 0.947438269415
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 42: 3.22731845424
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 42: 1.7964738946720158
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 42: 0.0474906400709
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 38: 5.10831151367
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 38: 23.8795905702
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 38: 4.886674796848914
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 38: 0.256055714971
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 43: 5.83685882643
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 43: 35.3934316303
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 43: 5.949237903316491
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 43: 0.292574377265
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 39: 2.0260694247
+Mean Squared Error for Nearest Neighbors Item Based Average N = 39: 8.35076521459
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 39: 2.8897690590404643
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 39: 0.101557364646
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 43: 1.65141326654
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 43: 7.12237853045
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 43: 2.6687784715947225
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 43: 0.0827776073452
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 39: 1.64932977668
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 39: 8.72610805923
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 39: 2.953998655928756
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 39: 0.0826731717635
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 43: 43.9130621519
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 43: 154.36271519
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 43: 12.424279262402868
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 43: 2.20115599759
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 39: 13.1910265284
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 39: 63.3200401699
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 39: 7.9573890296951255
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 39: 0.661204337261
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 44: 801.044464726
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 44: 3766.2733093
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 44: 61.36997074543977
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 44: 40.1526047482
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 40: 3.37373942999
+Mean Squared Error for Nearest Neighbors Item Based Average N = 40: 26.4517804433
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 40: 5.143129440653367
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 40: 0.169109745864
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 44: 1.84066081419
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 44: 7.3121732523
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 44: 2.7041030402523667
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 44: 0.0922636999592
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 40: 6.18044933272
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 40: 30.3434493569
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 40: 5.508488845128314
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 40: 0.309796959034
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 44: 0.881910828046
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 44: 2.35617894104
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 44: 1.5349849970091223
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 44: 0.0442060565437
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 40: 4.00497365736
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 40: 18.1682071972
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 40: 4.262417998887081
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 40: 0.200750559266
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 45: 15.1461021885
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 45: 72.1380191057
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 45: 8.493410334232786
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 45: 0.759203117218
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 41: 3.05267703497
+Mean Squared Error for Nearest Neighbors Item Based Average N = 41: 14.4163708369
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 41: 3.796889626644761
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 41: 0.15301639273
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 45: 3.31112870854
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 45: 20.2225572325
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 45: 4.496949769841758
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 45: 0.165971363837
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 41: 2.08116018712
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 41: 12.060989757
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 41: 3.472893571217555
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 41: 0.104318806372
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 45: 16.0805603231
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 45: 73.4430154637
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 45: 8.56989004968401
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 45: 0.806043123964
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 41: 10.711055568
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 41: 47.7642034234
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 41: 6.9111651277765676
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 41: 0.536895015938
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 46: 2.1641419762
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 46: 10.5049657069
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 46: 3.241136483844831
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 46: 0.108478294546
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 42: 4.32580619375
+Mean Squared Error for Nearest Neighbors Item Based Average N = 42: 27.6193531444
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 42: 5.255411795888915
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 42: 0.216832390664
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 46: 5.27293595683
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 46: 35.0917505696
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 46: 5.9238290462812415
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 46: 0.264307566758
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 42: 41.758918277
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 42: 240.155234853
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 42: 15.49694275825469
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 42: 2.093178861
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 46: 7.5158795632
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 46: 22.1262140518
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 46: 4.703850981034302
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 46: 0.376735817704
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 42: 1.74352290184
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 42: 7.2743498323
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 42: 2.6971002636719033
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 42: 0.0873946316711
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 47: 1.70009969277
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 47: 9.91738182987
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 47: 3.149187487253282
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 47: 0.0852180297129
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 43: 11.7971598832
+Mean Squared Error for Nearest Neighbors Item Based Average N = 43: 58.7216263191
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 43: 7.663003739989667
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 43: 0.591336334996
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 47: 7.99042551306
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 47: 34.0701559117
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 47: 5.836964614567751
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 47: 0.400522582108
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 43: 3.00356509285
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 43: 13.6363485068
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 43: 3.6927426808291153
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 43: 0.150554641246
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 47: 2.40183070421
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 47: 10.026987714
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 47: 3.1665419172911875
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 47: 0.120392516502
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 43: 1.73251042823
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 43: 7.77036732007
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 43: 2.7875378598442784
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 43: 0.0868426279813
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 48: 4.80364479429
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 48: 19.886748401
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 48: 4.459456065599307
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 48: 0.240784200215
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 44: 3.61317025718
+Mean Squared Error for Nearest Neighbors Item Based Average N = 44: 24.2933829909
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 44: 4.928831807936542
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 44: 0.181111291087
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 48: 6.62736960962
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 48: 24.7352202607
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 48: 4.973451544016354
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 48: 0.332198977926
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 44: 2.37387473416
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 44: 10.8687903508
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 44: 3.296784850546491
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 44: 0.118991214745
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 48: 0.768359971564
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 48: 1.99293307012
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 48: 1.4117128143199704
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 48: 0.0385142842889
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 44: 1.87336689808
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 44: 9.07279873391
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 44: 3.012108685606613
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 44: 0.0939031026608
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 49: 2.7540796715
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 49: 13.2887474152
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 49: 3.6453734260302513
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 49: 0.138049106341
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 45: 12.1178466976
+Mean Squared Error for Nearest Neighbors Item Based Average N = 45: 78.073290905
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 45: 8.835909172519584
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 45: 0.607410862033
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 49: 0.804537270402
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 49: 3.31365469016
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 49: 1.8203446624647754
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 49: 0.0403276827269
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 45: 30.253524754
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 45: 163.185396743
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 45: 12.774403968219557
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 45: 1.51646740621
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 49: 2.83918961199
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 49: 10.1076241432
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 49: 3.1792489904339996
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 49: 0.142315268772
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 45: 10.0601101302
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 45: 54.4442366609
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 45: 7.378633793654425
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 45: 0.504266171937
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 50: 2.41391618874
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 50: 13.6637635536
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 50: 3.696452833944264
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 50: 0.1209983052
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 46: 7.21167517483
+Mean Squared Error for Nearest Neighbors Item Based Average N = 46: 28.5486947438
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 46: 5.343097860209055
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 46: 0.361487477435
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 50: 1.31587088848
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 50: 4.73322525285
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 50: 2.1755976771577723
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 50: 0.0659584405252
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 46: 1.74463680946
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 46: 9.38697947724
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 46: 3.063817794392857
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 46: 0.0874504666395
+Test failed for either CN = 50 or IBN = 46
+Trying to increase CN by 1; now it is 51
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 51: 4.7504302513
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 51: 19.563566748
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 51: 4.423072093919677
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 51: 0.238116804577
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 46: 1.03966147539
+Mean Squared Error for Nearest Neighbors Item Based Average N = 46: 3.984510929
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 46: 1.9961239763602823
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 46: 0.0521133571626
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 51: 60.8365078394
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 51: 324.818920507
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 51: 18.022733436045662
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 51: 3.04944901451
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 46: 1.80286188825
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 46: 9.32762688437
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 46: 3.054116383567062
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 46: 0.0903690169549
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 51: 107.549077014
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 51: 399.413980896
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 51: 19.985344152564302
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 51: 5.39093117865
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 46: 11.5436246889
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 46: 62.3851835302
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 46: 7.898429181185117
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 46: 0.578627803955
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 52: 6.79274547405
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 52: 33.7174255497
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 52: 5.806670780203256
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 52: 0.34048849494
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 47: 1.74265886285
+Mean Squared Error for Nearest Neighbors Item Based Average N = 47: 9.62432519598
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 47: 3.1023096550766693
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 47: 0.0873513214463
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 52: 11.2097386681
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 52: 38.9509242713
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 52: 6.2410675586223965
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 52: 0.561891662562
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 47: 5.95381866004
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 47: 33.8181149353
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 47: 5.815334464612342
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 47: 0.298437025566
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 52: 8.91379461389
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 52: 33.7785667287
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 52: 5.811933131819251
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 52: 0.446806747563
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 47: 9.05886231059
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 47: 49.6879670652
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 47: 7.048969220047358
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 47: 0.454078311308
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 53: 2.72972758966
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 53: 10.1726432837
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 53: 3.1894581489188054
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 53: 0.136828450609
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 48: 1.3385339664
+Mean Squared Error for Nearest Neighbors Item Based Average N = 48: 7.74651147292
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 48: 2.783255552930382
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 48: 0.0670944344062
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 53: 1.65325948123
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 53: 5.32126917191
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 53: 2.306787630430978
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 53: 0.0828701494352
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 48: 2.91548188711
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 48: 16.2448790996
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 48: 4.030493654578759
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 48: 0.146139442963
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 53: 1.665346935
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 53: 6.50325787436
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 53: 2.550148598485491
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 53: 0.083476036842
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 48: 3.91383347578
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 48: 16.9232259713
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 48: 4.113784871781963
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 48: 0.196182129112
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 54: 17.8319371845
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 54: 97.1457180937
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 54: 9.856252740961068
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 54: 0.893831437819
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 49: 17.4808054954
+Mean Squared Error for Nearest Neighbors Item Based Average N = 49: 114.78454941
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 49: 10.71375514982717
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 49: 0.876230851898
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 54: 6.15783586245
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 54: 27.0576938243
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 54: 5.201701051028852
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 54: 0.308663451752
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 49: 3.20582108452
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 49: 15.8167631959
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 49: 3.9770294436771976
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 49: 0.160692786191
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 54: 1.45639645485
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 54: 6.66857699574
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 54: 2.5823588046086647
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 54: 0.0730023285637
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 49: 27.4205303028
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 49: 146.696047217
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 49: 12.111814365177636
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 49: 1.37446267182
+Test failed for either CN = 55 or IBN = 50
+Trying to increase CN by 1; now it is 56
+Test failed for either CN = 56 or IBN = 50
+Trying to increase CN by 1; now it is 57
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 57: 0.745233577713
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 57: 3.07564381758
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 57: 1.7537513556882127
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 57: 0.037355066552
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 50: 8.08816624594
+Mean Squared Error for Nearest Neighbors Item Based Average N = 50: 44.6890294933
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 50: 6.68498537719396
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 50: 0.405421866964
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 57: 11.7559327458
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 57: 60.937560192
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 57: 7.806251353369768
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 57: 0.589269811821
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 50: 3.64296203611
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 50: 19.6581411702
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 50: 4.433750237688499
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 50: 0.182604613339
+Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 57: 3.20957011248
+Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 57: 8.91998225323
+Root Mean Squared Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 57: 2.98663393358352
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Adjusted Weighted Sum N = 57: 0.160880707393
+Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 50: 7.13275159099
+Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 50: 37.8326949786
+Root Mean Squared Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 50: 6.150828804202398
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Adjusted Weighted Sum N = 50: 0.35753140807
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 58: 1.93831978501
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 58: 8.80663696326
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 58: 2.9675978439240467
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 58: 0.0971588864668
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 51: 16.8375221374
+Mean Squared Error for Nearest Neighbors Item Based Average N = 51: 85.126659632
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 51: 9.226410983257882
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 51: 0.843986072048
+Test failed for either CN = 58 or IBN = 51
+Trying to increase CN by 1; now it is 59
+Test failed for either CN = 59 or IBN = 51
+Trying to increase CN by 1; now it is 60
+Test failed for either CN = 60 or IBN = 51
+Trying to increase CN by 1; now it is 61
