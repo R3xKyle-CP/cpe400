@@ -17,22 +17,27 @@ import os
 
 # transpose matrix to get the same functionality
 # transpose matrix ->
-FILESIZE = 5
-NUMJOKES = 5
-FILENAME = "test.csv"
+FILESIZE = 24983
+NUMJOKES = 100
+FILENAME = "jester-data-1.csv"
 FILENAMENNC = "nearestNeighborsC.csv"
 FILENAMENNIB = "nearestNeighborsIB.csv"
 
 def main():
-#    print("Collaborative Average - User 500, Joke 50: " + str(collaborativeAverage(499, 49)))
-#    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
-#    print("Collaborative Weighted Sum - User 500, Joke 50: " + str(collaborativeWeightedSum(3, 3)))
-#    print("Nearest Neighbors Collaborative Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeWeightedSum(499, 49, 24982)))
+    print("Collaborative Average - User 500, Joke 50: " + str(collaborativeAverage(3, 3)))
+    print("Item Based Average - User 500, Joke 500: " + str(itemBasedAverage(3, 3)))
+    print("Collaborative Weighted Sum - User 500, Joke 50: " + str(collaborativeWeightedSum(3, 3)))
+    print("Item Based Weighted Sum - User 500, Joke 50: " + str(itemBasedWeightedSum(3, 3)))
     print("Collaborative Adjusted Weighted Sum - User 500, Joke 50: " + str(collaborativeAdjustedWeightedSum(3, 3)))
+    print("Item Based Adjusted Weighted Sum - User 500, Joke 50: " + str(itemBasedAdjustedWeightedSum(3, 3)))
+#    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
+
+#    print("Nearest Neighbors Collaborative Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeWeightedSum(499, 49, 24982)))
+
 #    print("Nearest Neighbors Collaborative Adjusted Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAdjustedWeightedSum(499, 49, 24982)))
-#    print("Item Based Average - User 500, Joke 500: " + str(itemBasedAverage(499, 49)))
+
 #    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedAverage(499, 49, 99)))
-#    print("Item Based Weighted Sum - User 500, Joke 50: " + str(itemBasedWeightedSum(499, 49)))
+
 #    print("Nearest Neighbors Item Based Weighted Sum: " + str(nearestNeighborsItemBasedWeightedSum(499, 49, 99)))
 #    print("Item Based Adjusted Weighted Sum - User 500, Joke 50: " + str(itemBasedAdjustedWeightedSum(3, 3)))
 #    print("Nearest Neighbors Item Based Adjusted Weighted Sum: " + str(nearestNeighborsItemBasedAdjustedWeightedSum(499, 49, 99)))
@@ -74,7 +79,7 @@ def collaborativeWeightedSum(userNumber, itemNumber, fileName = FILENAME, fileSi
             utilityUserI = float(info[itemNumber + 1])
             if utilityUserI != 99:
                 similarity = collaborativePearsonCorrelation(userNumber, i, fileName)
-                print(similarity)
+                #print(similarity)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * utilityUserI)
 
@@ -89,7 +94,7 @@ def collaborativeAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME
             utilityUserI = float(info[itemNumber + 1])
             if utilityUserI != 99:
                 similarity = collaborativePearsonCorrelation(userNumber, i, fileName)
-                print(similarity)
+                #print(similarity)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * (utilityUserI - itemBasedAverage(i, -1, fileName)))
 
@@ -138,7 +143,7 @@ def itemBasedWeightedSum(userNumber, itemNumber, fileName = FILENAME, fileSize =
             utilityItemI = float(info[i])
             if utilityItemI != 99:
                 similarity = itemBasedPearsonCorrelation(itemNumber, i - 1, fileName, fileSize)
-                print(similarity)
+                #print(similarity)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * utilityItemI)
 
@@ -154,7 +159,7 @@ def itemBasedAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME, fi
             if utilityItemI != 99:
                 similarity = itemBasedPearsonCorrelation(itemNumber, i - 1, fileName, fileSize)
                 normalizationSum += abs(similarity)
-                compSum += (similarity * (utilityItemI - collaborativeAverage(-1, i, fileName, fileSize)))
+                compSum += (similarity * (utilityItemI - collaborativeAverage(-1, i - 1, fileName, fileSize)))
 
     return (collaborativeAverage(-1, itemNumber) + (compSum/normalizationSum))
 
