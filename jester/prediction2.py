@@ -28,13 +28,13 @@ def main():
 #    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
 #    print("Collaborative Weighted Sum - User 500, Joke 50: " + str(collaborativeWeightedSum(3, 3)))
 #    print("Nearest Neighbors Collaborative Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeWeightedSum(499, 49, 24982)))
-#    print("Collaborative Adjusted Weighted Sum - User 500, Joke 50: " + str(collaborativeAdjustedWeightedSum(499, 49)))
+    print("Collaborative Adjusted Weighted Sum - User 500, Joke 50: " + str(collaborativeAdjustedWeightedSum(3, 3)))
 #    print("Nearest Neighbors Collaborative Adjusted Weighted Sum - User 500, Joke 50, N 24982: " + str(nearestNeighborsCollaborativeAdjustedWeightedSum(499, 49, 24982)))
 #    print("Item Based Average - User 500, Joke 500: " + str(itemBasedAverage(499, 49)))
 #    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedAverage(499, 49, 99)))
 #    print("Item Based Weighted Sum - User 500, Joke 50: " + str(itemBasedWeightedSum(499, 49)))
 #    print("Nearest Neighbors Item Based Weighted Sum: " + str(nearestNeighborsItemBasedWeightedSum(499, 49, 99)))
-#    print("Item Based Adjusted Weighted Sum - User 500, Joke 50: " + str(itemBasedAdjustedWeightedSum(499, 49)))
+#    print("Item Based Adjusted Weighted Sum - User 500, Joke 50: " + str(itemBasedAdjustedWeightedSum(3, 3)))
 #    print("Nearest Neighbors Item Based Adjusted Weighted Sum: " + str(nearestNeighborsItemBasedAdjustedWeightedSum(499, 49, 99)))
 #    print("Collaborative Pearson Correlation - User 24983, User 24982: " + str(collaborativePearsonCorrelation(FILESIZE - 1, FILESIZE - 2)))
 #    print("Item Based Pearson Correlation - Joke 99, Joke 100: " + str(itemBasedPearsonCorrelation(98, 99)))
@@ -45,7 +45,7 @@ def main():
 #    print("Item Based Pearson Correlation - Joke 1, Joke 2: " + str(itemBasedPearsonCorrelation(3, 3)))
 #    print("Collaborative Weighted Sum - User 1, Joke 1: " + str(collaborativeWeightedSum(0,0)))
 #    print("Collaborative Adjusted Weighted Sum - User 1, Joke 1: " + str(collaborativeAdjustedWeightedSum(0,0)))
-    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(3,3)))
+#    print("Item Based Weighted Sum - User 1, Joke 1: " + str(itemBasedWeightedSum(3,3)))
 #    print("Item Based Adjusted Weighted Sum - User 1, Joke 1: " + str(itemBasedAdjustedWeightedSum(0, 0)))
 #    print("Nearest Neighbors Collaborative Average - User 500, Joke 50, N 5: " + str(nearestNeighborsCollaborativeAverage(499, 49, 24982)))
 #    print("Nearest Neighbors Item Based Average: " + str(nearestNeighborsItemBasedWeightedSum(499, 49, 99)))
@@ -89,6 +89,7 @@ def collaborativeAdjustedWeightedSum(userNumber, itemNumber, fileName = FILENAME
             utilityUserI = float(info[itemNumber + 1])
             if utilityUserI != 99:
                 similarity = collaborativePearsonCorrelation(userNumber, i, fileName)
+                print(similarity)
                 normalizationSum += abs(similarity)
                 compSum += (similarity * (utilityUserI - itemBasedAverage(i, -1, fileName)))
 
@@ -102,7 +103,7 @@ def collaborativePearsonCorrelation(user1Number, user2Number, fileName = FILENAM
     user2 = linecache.getline(fileName, user2Number + 1).split(",")
     avgUser1 = itemBasedAverage(user1Number, -1, fileName) # -1 to ensure that it does not skip any joke
     avgUser2 = itemBasedAverage(user2Number, -1, fileName)
-    print(avgUser1, avgUser2)
+    #print(avgUser1, avgUser2)
     for i in range(1, len(user1)):
         utilityUser1 = float(user1[i])
         utilityUser2 = float(user2[i])
