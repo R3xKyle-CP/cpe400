@@ -106,7 +106,10 @@ def pearsonCorrelation(matrix, row1Index, row2Index):
             sumNumerator += compRow1 * compRow2
             sumDenominatorRow1 += compRow1 ** 2
             sumDenominatorRow2 += compRow2 ** 2
-    return sumNumerator / math.sqrt(sumDenominatorRow1 * sumDenominatorRow2)
+    if (math.sqrt(sumDenominatorRow1 * sumDenominatorRow2) == 0):
+        return 99
+    else:
+        return sumNumerator / math.sqrt(sumDenominatorRow1 * sumDenominatorRow2)
 
 
 if __name__ == "__main__":
