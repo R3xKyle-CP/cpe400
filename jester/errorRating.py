@@ -6,8 +6,8 @@ import random
 
 FILENAME = "jester-data-1.csv"
 TRIALS = 20
-CN = 50
-IBN = 20
+CN = 20
+IBN = 10
 
 predictionCalls = [
     ("Collaborative Average", lambda matrix, userNumber, itemNumber: average(matrix, userNumber, itemNumber)),

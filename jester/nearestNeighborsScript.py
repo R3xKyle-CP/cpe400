@@ -11,10 +11,10 @@ TRIALS = 20
 
 
 def main():
-    CN = 5
-    IBN = 3
+    CN = 10
+    IBN = 5
     j = 0
-    while (CN <= 60 or IBN <= 30):
+    while (CN <= 50 or IBN <= 20):
         try:
             predictionCalls = [
                 ("Nearest Neighbors Collaborative Average: N = " + str(CN), lambda matrix, userNumber, itemNumber: nearestNeighborsAverage(matrix, CN, userNumber, itemNumber)),

@@ -1,0 +1,234 @@
+Test failed for either CN = 10 or IBN = 5
+Trying to increase CN by 1; now it is 11
+Test failed for either CN = 11 or IBN = 5
+Trying to increase IBN by 1; now it is 6; Subtracting 1 from CN; now it is 10
+Test failed for either CN = 10 or IBN = 6
+Both failed
+Test failed for either CN = 11 or IBN = 6
+Trying to increase CN by 1; now it is 12
+Test failed for either CN = 12 or IBN = 6
+Trying to increase IBN by 1; now it is 7; Subtracting 1 from CN; now it is 11
+Test failed for either CN = 11 or IBN = 7
+Both failed
+Test failed for either CN = 12 or IBN = 7
+Trying to increase CN by 1; now it is 13
+Test failed for either CN = 13 or IBN = 7
+Trying to increase IBN by 1; now it is 8; Subtracting 1 from CN; now it is 12
+Test failed for either CN = 12 or IBN = 8
+Both failed
+Test failed for either CN = 13 or IBN = 8
+Trying to increase CN by 1; now it is 14
+Test failed for either CN = 14 or IBN = 8
+Trying to increase IBN by 1; now it is 9; Subtracting 1 from CN; now it is 13
+Test failed for either CN = 13 or IBN = 9
+Both failed
+Test failed for either CN = 14 or IBN = 9
+Trying to increase CN by 1; now it is 15
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 3.12166425005
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 14.8617402543
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 3.8550927685712373
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 0.156474398499
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 9: 10.8142034057
+Mean Squared Error for Nearest Neighbors Item Based Average N = 9: 66.2684972358
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 9: 8.14054649491316
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 9: 0.54206533362
+Test failed for either CN = 15 or IBN = 9
+Trying to increase IBN by 1; now it is 10; Subtracting 1 from CN; now it is 14
+Test failed for either CN = 14 or IBN = 10
+Both failed
+Test failed for either CN = 15 or IBN = 10
+Trying to increase CN by 1; now it is 16
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 16: 2.04373036275
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 16: 7.9985600871
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 16: 2.828172570247108
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 16: 0.102442624699
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 10: 3.29809939797
+Mean Squared Error for Nearest Neighbors Item Based Average N = 10: 17.2936872677
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 10: 4.158567934719697
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 10: 0.165318265562
+Test failed for either CN = 16 or IBN = 10
+Trying to increase IBN by 1; now it is 11; Subtracting 1 from CN; now it is 15
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 10.0184869053
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 38.5910928084
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 15: 6.212172953838814
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 15: 0.502179794749
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 11: 24.0908012083
+Mean Squared Error for Nearest Neighbors Item Based Average N = 11: 140.545210441
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 11: 11.85517652507064
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 11: 1.20755895781
+Test failed for either CN = 15 or IBN = 11
+Both failed
+Test failed for either CN = 16 or IBN = 11
+Trying to increase CN by 1; now it is 17
+Test failed for either CN = 17 or IBN = 11
+Trying to increase IBN by 1; now it is 12; Subtracting 1 from CN; now it is 16
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 16: 2.24351074831
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 16: 10.4471210888
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 16: 3.2322006572572066
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 16: 0.112456679113
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 12: 4.7196226432
+Mean Squared Error for Nearest Neighbors Item Based Average N = 12: 23.3472183618
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 12: 4.831895938634402
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 12: 0.236572563569
+Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 16: 2.6328712739
+Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 16: 11.8562646207
+Root Mean Squared Error for Nearest Neighbors Collaborative Weighted Sum N = 16: 3.443292700414992
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Weighted Sum N = 16: 0.131973497438
+Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 12: 11.2083005348
+Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 12: 42.5250532255
+Root Mean Squared Error for Nearest Neighbors Item Based Weighted Sum N = 12: 6.5211236167925035
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Weighted Sum N = 12: 0.56181957568
+Test failed for either CN = 16 or IBN = 12
+Both failed
+Test failed for either CN = 17 or IBN = 12
+Trying to increase CN by 1; now it is 18
+Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 18: 2.2356456769
+Mean Squared Error for Nearest Neighbors Collaborative Average: N = 18: 8.9264844367
+Root Mean Squared Error for Nearest Neighbors Collaborative Average: N = 18: 2.9877222823916694
+Normalized Mean Absolute Error for Nearest Neighbors Collaborative Average: N = 18: 0.112062439945
+Mean Absolute Error for Nearest Neighbors Item Based Average N = 12: 4.16913606107
+Mean Squared Error for Nearest Neighbors Item Based Average N = 12: 20.0679373499
+Root Mean Squared Error for Nearest Neighbors Item Based Average N = 12: 4.479725142226989
+Normalized Mean Absolute Error for Nearest Neighbors Item Based Average N = 12: 0.208979251182
+Test failed for either CN = 18 or IBN = 12
+Trying to increase IBN by 1; now it is 13; Subtracting 1 from CN; now it is 17
+Test failed for either CN = 17 or IBN = 13
+Both failed
+Test failed for either CN = 18 or IBN = 13
+Trying to increase CN by 1; now it is 19
+Test failed for either CN = 19 or IBN = 13
+Trying to increase IBN by 1; now it is 14; Subtracting 1 from CN; now it is 18
+Test failed for either CN = 18 or IBN = 14
+Both failed
+Test failed for either CN = 19 or IBN = 14
+Trying to increase CN by 1; now it is 20
+Test failed for either CN = 20 or IBN = 14
+Trying to increase IBN by 1; now it is 15; Subtracting 1 from CN; now it is 19
+Test failed for either CN = 19 or IBN = 15
+Both failed
+Test failed for either CN = 20 or IBN = 15
+Trying to increase CN by 1; now it is 21
+Test failed for either CN = 21 or IBN = 15
+Trying to increase IBN by 1; now it is 16; Subtracting 1 from CN; now it is 20
+Test failed for either CN = 20 or IBN = 16
+Both failed
+Test failed for either CN = 21 or IBN = 16
+Trying to increase CN by 1; now it is 22
+Test failed for either CN = 22 or IBN = 16
+Trying to increase IBN by 1; now it is 17; Subtracting 1 from CN; now it is 21
+Test failed for either CN = 21 or IBN = 17
+Both failed
+Test failed for either CN = 22 or IBN = 17
+Trying to increase CN by 1; now it is 23
+Test failed for either CN = 23 or IBN = 17
+Trying to increase IBN by 1; now it is 18; Subtracting 1 from CN; now it is 22
+Test failed for either CN = 22 or IBN = 18
+Both failed
+Test failed for either CN = 23 or IBN = 18
+Trying to increase CN by 1; now it is 24
+Test failed for either CN = 24 or IBN = 18
+Trying to increase IBN by 1; now it is 19; Subtracting 1 from CN; now it is 23
+Test failed for either CN = 23 or IBN = 19
+Both failed
+Test failed for either CN = 24 or IBN = 19
+Trying to increase CN by 1; now it is 25
+Test failed for either CN = 25 or IBN = 19
+Trying to increase IBN by 1; now it is 20; Subtracting 1 from CN; now it is 24
+Test failed for either CN = 24 or IBN = 20
+Both failed
+Test failed for either CN = 25 or IBN = 20
+Trying to increase CN by 1; now it is 26
+Test failed for either CN = 26 or IBN = 20
+Trying to increase IBN by 1; now it is 21; Subtracting 1 from CN; now it is 25
+Test failed for either CN = 25 or IBN = 21
+Both failed
+Test failed for either CN = 26 or IBN = 21
+Trying to increase CN by 1; now it is 27
+Test failed for either CN = 27 or IBN = 21
+Trying to increase IBN by 1; now it is 22; Subtracting 1 from CN; now it is 26
+Test failed for either CN = 26 or IBN = 22
+Both failed
+Test failed for either CN = 27 or IBN = 22
+Trying to increase CN by 1; now it is 28
+Test failed for either CN = 28 or IBN = 22
+Trying to increase IBN by 1; now it is 23; Subtracting 1 from CN; now it is 27
+Test failed for either CN = 27 or IBN = 23
+Both failed
+Test failed for either CN = 28 or IBN = 23
+Trying to increase CN by 1; now it is 29
+Test failed for either CN = 29 or IBN = 23
+Trying to increase IBN by 1; now it is 24; Subtracting 1 from CN; now it is 28
+Test failed for either CN = 28 or IBN = 24
+Both failed
+Test failed for either CN = 29 or IBN = 24
+Trying to increase CN by 1; now it is 30
+Test failed for either CN = 30 or IBN = 24
+Trying to increase IBN by 1; now it is 25; Subtracting 1 from CN; now it is 29
+Test failed for either CN = 29 or IBN = 25
+Both failed
+Test failed for either CN = 30 or IBN = 25
+Trying to increase CN by 1; now it is 31
+Test failed for either CN = 31 or IBN = 25
+Trying to increase IBN by 1; now it is 26; Subtracting 1 from CN; now it is 30
+Test failed for either CN = 30 or IBN = 26
+Both failed
+Test failed for either CN = 31 or IBN = 26
+Trying to increase CN by 1; now it is 32
+Test failed for either CN = 32 or IBN = 26
+Trying to increase IBN by 1; now it is 27; Subtracting 1 from CN; now it is 31
+Test failed for either CN = 31 or IBN = 27
+Both failed
+Test failed for either CN = 32 or IBN = 27
+Trying to increase CN by 1; now it is 33
+Test failed for either CN = 33 or IBN = 27
+Trying to increase IBN by 1; now it is 28; Subtracting 1 from CN; now it is 32
+Test failed for either CN = 32 or IBN = 28
+Both failed
+Test failed for either CN = 33 or IBN = 28
+Trying to increase CN by 1; now it is 34
+Test failed for either CN = 34 or IBN = 28
+Trying to increase IBN by 1; now it is 29; Subtracting 1 from CN; now it is 33
+Test failed for either CN = 33 or IBN = 29
+Both failed
+Test failed for either CN = 34 or IBN = 29
+Trying to increase CN by 1; now it is 35
+Test failed for either CN = 35 or IBN = 29
+Trying to increase IBN by 1; now it is 30; Subtracting 1 from CN; now it is 34
+Test failed for either CN = 34 or IBN = 30
+Both failed
+Test failed for either CN = 35 or IBN = 30
+Trying to increase CN by 1; now it is 36
+Test failed for either CN = 36 or IBN = 30
+Trying to increase IBN by 1; now it is 31; Subtracting 1 from CN; now it is 35
+Test failed for either CN = 35 or IBN = 31
+Trying to increase CN by 1; now it is 36
+Test failed for either CN = 36 or IBN = 31
+Trying to increase CN by 1; now it is 37
+Test failed for either CN = 37 or IBN = 31
+Trying to increase CN by 1; now it is 38
+Test failed for either CN = 38 or IBN = 31
+Trying to increase CN by 1; now it is 39
+Test failed for either CN = 39 or IBN = 31
+Trying to increase CN by 1; now it is 40
+Test failed for either CN = 40 or IBN = 31
+Trying to increase CN by 1; now it is 41
+Test failed for either CN = 41 or IBN = 31
+Trying to increase CN by 1; now it is 42
+Test failed for either CN = 42 or IBN = 31
+Trying to increase CN by 1; now it is 43
+Test failed for either CN = 43 or IBN = 31
+Trying to increase CN by 1; now it is 44
+Test failed for either CN = 44 or IBN = 31
+Trying to increase CN by 1; now it is 45
+Test failed for either CN = 45 or IBN = 31
+Trying to increase CN by 1; now it is 46
+Test failed for either CN = 46 or IBN = 31
+Trying to increase CN by 1; now it is 47
+Test failed for either CN = 47 or IBN = 31
+Trying to increase CN by 1; now it is 48
+Test failed for either CN = 48 or IBN = 31
+Trying to increase CN by 1; now it is 49
+Test failed for either CN = 49 or IBN = 31
+Trying to increase CN by 1; now it is 50
+Test failed for either CN = 50 or IBN = 31
+Trying to increase CN by 1; now it is 51
